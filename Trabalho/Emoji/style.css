@@ -1,0 +1,148 @@
+.container {  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(15, 1fr);
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . . . A-color-black A-color-black A-color-black A-color-black A-color-black . . . . ."
+    ". . . b-color-black b-color-black C-color-yellow C-color-yellow C-color-yellow C-color-yellow C-color-yellow D-color-black D-color-black . . ."
+    ". . E-color-black F-color-yellow F-color-yellow F-color-yellow F-color-yellow F-color-yellow F-color-yellow F-color-yellow F-color-yellow F-color-yellow G-color-black . ."
+    ". H-color-black K-color-yellow K-color-yellow K-color-yellow K-color-yellow K-color-yellow K-color-yellow K-color-yellow K-color-yellow K-color-yellow K-color-yellow K-color-yellow K-color-black ."
+    ". H-color-black j-color-yellow j-color-yellow j-color-yellow j-color-yellow j-color-yellow j-color-yellow j-color-yellow j-color-yellow j-color-yellow j-color-yellow j-color-yellow K-color-black ."
+    "L-color-black L-color-black L-color-black L-color-black L-color-black L-color-black L-color-black L-color-black L-color-black L-color-black L-color-black L-color-black L-color-black L-color-black L-color-black"
+    "M-color-black h-color-yellow aa-color-black uu-color-black a-color-white a-color-white yy-color-black ppp-color-black ppp-color-black ppp-color-black cc-color-white cc-color-white e-color-black E-color-yellow d-color-black"
+    "M-color-black h-color-yellow aa-color-black uu-color-black s-color-black b-color-white yy-color-black hh-color-yellow aaasa-color-black aaasa-color-black aaasa-color-black d-color-white e-color-black E-color-yellow d-color-black"
+    "M-color-black pp-color-yellow pp-color-yellow uu-color-black s-color-black v-color-black kkkk-color-yellow kkkk-color-yellow kkkk-color-yellow bbb-color-black bbb-color-black bbb-color-black f-color-yellow E-color-yellow d-color-black"
+    "M-color-black rrr-color-yellow rrr-color-yellow rrr-color-yellow rrr-color-yellow rrr-color-yellow rrr-color-yellow rrr-color-yellow rrr-color-yellow rrr-color-yellow rrr-color-yellow rrr-color-yellow rrr-color-yellow rrr-color-yellow d-color-black"
+    ". oo-color-black lllll-color-yellow lllll-color-yellow lllll-color-yellow lllll-color-yellow lllll-color-yellow lllll-color-yellow lllll-color-yellow lllll-color-yellow lllll-color-yellow lllll-color-yellow lllll-color-yellow p-color-black ."
+    ". oo-color-black keke-color-yellow keke-color-yellow keke-color-yellow kkkkk-color-black ggg-color-yellow ggg-color-yellow ggg-color-yellow jkh-color-black hsg-color-yellow hsg-color-yellow hsg-color-yellow p-color-black ."
+    ". . ll-color-black khsk-color-yellow khsk-color-yellow khsk-color-yellow kjkh-color-black kjkh-color-black kjkh-color-black ksjag-color-yellow ksjag-color-yellow ksjag-color-yellow vv-color-black . ."
+    ". . . ss-color-black ss-color-black ksjye-color-yellow ksjye-color-yellow ksjye-color-yellow ksjye-color-yellow ksjye-color-yellow nn-color-black nn-color-black . . ."
+    ". . . . . mm-color-black mm-color-black mm-color-black mm-color-black mm-color-black . . . . .";
+}
+
+.b-color-black { grid-area: b-color-black; }
+
+.A-color-black { grid-area: A-color-black; }
+
+.M-color-black { grid-area: M-color-black; }
+
+.L-color-black { grid-area: L-color-black; }
+
+.H-color-black { grid-area: H-color-black; }
+
+.E-color-black { grid-area: E-color-black; }
+
+.D-color-black { grid-area: D-color-black; }
+
+.C-color-yellow { grid-area: C-color-yellow; }
+
+.F-color-yellow { grid-area: F-color-yellow; }
+
+.K-color-yellow { grid-area: K-color-yellow; }
+
+.G-color-black { grid-area: G-color-black; }
+
+.K-color-black { grid-area: K-color-black; }
+
+.E-color-yellow { grid-area: E-color-yellow; }
+
+.d-color-black { grid-area: d-color-black; }
+
+.f-color-yellow { grid-area: f-color-yellow; }
+
+.e-color-black { grid-area: e-color-black; }
+
+.p-color-black { grid-area: p-color-black; }
+
+.vv-color-black { grid-area: vv-color-black; }
+
+.nn-color-black { grid-area: nn-color-black; }
+
+.mm-color-black { grid-area: mm-color-black; }
+
+.ss-color-black { grid-area: ss-color-black; }
+
+.ll-color-black { grid-area: ll-color-black; }
+
+.oo-color-black { grid-area: oo-color-black; }
+
+.h-color-yellow { grid-area: h-color-yellow; }
+
+.pp-color-yellow { grid-area: pp-color-yellow; }
+
+.aa-color-black { grid-area: aa-color-black; }
+
+.uu-color-black { grid-area: uu-color-black; }
+
+.s-color-black { grid-area: s-color-black; }
+
+.a-color-white { grid-area: a-color-white; }
+
+.b-color-white { grid-area: b-color-white; }
+
+.v-color-black { grid-area: v-color-black; }
+
+.yy-color-black { grid-area: yy-color-black; }
+
+.ppp-color-black { grid-area: ppp-color-black; }
+
+.hh-color-yellow { grid-area: hh-color-yellow; }
+
+.cc-color-white { grid-area: cc-color-white; }
+
+.d-color-white { grid-area: d-color-white; }
+
+.bbb-color-black { grid-area: bbb-color-black; }
+
+.kkkk-color-yellow { grid-area: kkkk-color-yellow; }
+
+.rrr-color-yellow { grid-area: rrr-color-yellow; }
+
+.lllll-color-yellow { grid-area: lllll-color-yellow; }
+
+.keke-color-yellow { grid-area: keke-color-yellow; }
+
+.kkkkk-color-black { grid-area: kkkkk-color-black; }
+
+.ggg-color-yellow { grid-area: ggg-color-yellow; }
+
+.jkh-color-black { grid-area: jkh-color-black; }
+
+.hsg-color-yellow { grid-area: hsg-color-yellow; }
+
+.khsk-color-yellow { grid-area: khsk-color-yellow; }
+
+.kjkh-color-black { grid-area: kjkh-color-black; }
+
+.ksjag-color-yellow { grid-area: ksjag-color-yellow; }
+
+.ksjye-color-yellow { grid-area: ksjye-color-yellow; }
+
+.j-color-yellow { grid-area: j-color-yellow; }
+
+.aaasa-color-black { grid-area: aaasa-color-black; }
+
+#black{
+  background-color: black;
+}
+
+#yellow{
+  background-color: yellow;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  height: 100%;
+  width: 50%;
+}
